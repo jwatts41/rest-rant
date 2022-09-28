@@ -1,5 +1,24 @@
 {
   "dependencies": {
-    "dotenv": "^16.0.2"
-  }
+    "dotenv": "^16.0.2",
+    "nodemon": "^2.0.20"
+  },
+  "name": "rest-rant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwatts41/rest-rant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwatts41/rest-rant/issues"
+  },
+  "homepage": "https://github.com/jwatts41/rest-rant#readme",
+  "description": ""
 }
