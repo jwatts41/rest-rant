@@ -8,14 +8,15 @@ function show (data) {
             <h1>{ data.place.name }</h1>
             <h3>Currently Unrated</h3>
             <p>Comments</p>
-            <a href="" className="btn btn-warning"> 
+            <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
             Edit
             </a>  
-            <form method="POST" action=""> 
-            <button type="submit" className="btn btn-danger">
-         Delete
-        </button>
-            </form>     
+            <form method="POST" action={`/places/${data.id}?_method=DELETE`}> 
+  <button type="submit" className="btn btn-danger">
+    Delete
+  </button>
+</form> 
+    
           </main>
         </Def>
     )
